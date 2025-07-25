@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Wii BRSTM Player</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>🎵 Wii BRSTM Web Player</h1>
+  </header>
+
+  <section class="player-container">
+    <div id="drop-zone">
+      <p>Drag & Drop your .brstm file here</p>
+      <input type="file" id="fileInput" accept=".brstm" />
+    </div>
+
+    <div class="controls">
+      <button id="playBtn">Play ▶️</button>
+      <button id="pauseBtn">Pause ⏸️</button>
+      <button id="loopBtn">Loop 🔁</button>
+    </div>
+
+    <canvas id="visualizer" width="600" height="200"></canvas>
+  </section>
+
+  <footer>
+    <p>Choose your theme:</p>
+    <button id="retroTheme">Retro Wii ✨</button>
+    <button id="modernTheme">Modern Flat 🌈</button>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
