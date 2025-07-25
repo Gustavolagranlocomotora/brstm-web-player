@@ -1,0 +1,19 @@
+body.retro {
+  background-image: url('assets/mariokart-retro-bg.jpg');
+  font-family: 'Press Start 2P', cursive;
+  color: white;
+}
+
+body.modern {
+  background: linear-gradient(to right, #00c6ff, #0072ff);
+  font-family: 'Segoe UI', sans-serif;
+  color: #222;
+}
+
+.controls button {
+  padding: 10px;
+  margin: 5px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+}
